@@ -90,6 +90,7 @@ function Navbar() {
 
 ReactDOM.render(
   <React.StrictMode>
+    <Navbar />
     <App />
     <Header />
     <Body />
