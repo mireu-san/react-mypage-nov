@@ -65,6 +65,28 @@ function Footer() {
   )
 }
 
+function Navbar() {
+  return (
+    <div className="navbar__dogma">
+      <div className="navbar__menu">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
