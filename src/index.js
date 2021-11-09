@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
+import Navbar from './components/Navbar';
+
 // each function or section will be divided to each file later
 
 function Header() {
@@ -59,7 +61,7 @@ function Footer() {
   return (
     <div className="footer__dogma">
       <div className="footer__copyright">
-        <p>Copyright © 2020 Jongwan Starmire. All rights reserved.</p>
+        <p>Copyright © 2020 Jongwan Starmireu. All rights reserved.</p>
       </div>
     </div>
   )
@@ -71,16 +73,16 @@ function Navbar() {
       <div className="navbar__menu">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
