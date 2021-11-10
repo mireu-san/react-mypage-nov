@@ -1,5 +1,3 @@
-This repository is temporailly stopped.
-
 * Blueprint
 
 1.0 Top (header)
